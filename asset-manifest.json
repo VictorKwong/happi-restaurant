@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/happi-restaurant/static/css/main.bd128b26.css",
+    "main.js": "/happi-restaurant/static/js/main.d1fb931e.js",
+    "static/js/787.ad79ca19.chunk.js": "/happi-restaurant/static/js/787.ad79ca19.chunk.js",
+    "index.html": "/happi-restaurant/index.html",
+    "main.bd128b26.css.map": "/happi-restaurant/static/css/main.bd128b26.css.map",
+    "main.d1fb931e.js.map": "/happi-restaurant/static/js/main.d1fb931e.js.map",
+    "787.ad79ca19.chunk.js.map": "/happi-restaurant/static/js/787.ad79ca19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd128b26.css",
+    "static/js/main.d1fb931e.js"
+  ]
+}

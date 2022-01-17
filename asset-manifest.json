@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/happi-restaurant/static/css/main.bd128b26.css",
-    "main.js": "/happi-restaurant/static/js/main.5219226a.js",
+    "main.css": "/happi-restaurant/static/css/main.5a878baf.css",
+    "main.js": "/happi-restaurant/static/js/main.1a234e80.js",
     "static/js/787.ad79ca19.chunk.js": "/happi-restaurant/static/js/787.ad79ca19.chunk.js",
+    "static/media/CrispyChickenWings.jpg": "/happi-restaurant/static/media/CrispyChickenWings.1f8fbb749cd105d806e9.jpg",
+    "static/media/CaesarSalad.jpg": "/happi-restaurant/static/media/CaesarSalad.25dd2e8274ae70c7c961.jpg",
     "index.html": "/happi-restaurant/index.html",
-    "main.bd128b26.css.map": "/happi-restaurant/static/css/main.bd128b26.css.map",
-    "main.5219226a.js.map": "/happi-restaurant/static/js/main.5219226a.js.map",
+    "main.5a878baf.css.map": "/happi-restaurant/static/css/main.5a878baf.css.map",
+    "main.1a234e80.js.map": "/happi-restaurant/static/js/main.1a234e80.js.map",
     "787.ad79ca19.chunk.js.map": "/happi-restaurant/static/js/787.ad79ca19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd128b26.css",
-    "static/js/main.5219226a.js"
+    "static/css/main.5a878baf.css",
+    "static/js/main.1a234e80.js"
   ]
 }

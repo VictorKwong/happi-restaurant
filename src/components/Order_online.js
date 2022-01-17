@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
-class order_online extends Component{
+class Order_online extends Component{
     render(){
         return(
             <div>
-                <p>Order something!</p>
+                <p>Pickup</p>
+                <p>Delivery</p>
             </div>
         );
     }
 }
 
-export default order_online;
+export default Order_online;

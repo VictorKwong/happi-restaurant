@@ -9,6 +9,7 @@ Design Documents
     - a welcome page
     - Main Menu (Food)
     - Reserve Table (Firebase)
+    - User can review the restaurant menu and reserve tables through the website.
     - a bit CSS and design
     - Responsive design
 

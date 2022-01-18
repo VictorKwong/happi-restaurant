@@ -20,4 +20,5 @@ Design Documents
     - Github
     - HTML, CSS, React, Javascript
 
-Credit: Juno College
+4. Credit:
+    - Juno College - https://junocollege.com/

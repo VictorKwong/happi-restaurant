@@ -13,7 +13,7 @@ Design Documents
     - Responsive design
 
 
-Tools:
+3. Tools:
     - React.js
     - Node.js
     - Github

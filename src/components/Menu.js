@@ -1,31 +1,50 @@
 import React, { Component } from 'react';
-import FoodStorage from './FoodStorage';
+import FoodStorageAppetizer from './FoodStorageAppetizer';
+import FoodStorageMainMeals from './FoodStorageMainMeals';
 import DisplayFood from './DisplayFood';
 
 class Menu extends Component{
     constructor(){
         super();
         this.state = {
-            Food:FoodStorage,
+            menuAppetizer:FoodStorageAppetizer,
+            menuMainMeals:FoodStorageMainMeals
         }
     }
     render(){
         return(
-            <div>
-                <p>Menu</p>
-                {console.log(this.state.Food)}
+            <div className="txtCenter">
+                <h2 className="supTitle">Menu</h2>
+                <h4 className="supTitle">Appetizer</h4>
+                <div className="menuWrapper">
                 {
-                this.state.Food.map((x) => {
-                return (
-                    <DisplayFood 
-                    name={x.name}
-                    key={x.id}
-                    price={x.price}
-                    imageSrc={x.imageSrc}
-                />
-                )
-            })
-        }
+                this.state.menuAppetizer.map((x) => {
+                        return (
+                            <DisplayFood 
+                            name={x.name}
+                            key={x.id}
+                            price={x.price}
+                            imageSrc={x.imageSrc}
+                        />
+                        )
+                    })
+                 }
+                 </div>
+                 <h4 className="supTitle">Main Meals</h4>
+                 <div className="menuWrapper">
+                 {
+                this.state.menuMainMeals.map((y) => {
+                        return (
+                            <DisplayFood 
+                            name={y.name}
+                            key={y.id}
+                            price={y.price}
+                            imageSrc={y.imageSrc}
+                        />
+                        )
+                    })                     
+                 }
+                </div>
             </div>
         );
     }

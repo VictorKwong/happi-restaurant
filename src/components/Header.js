@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import Main from './Main';
 import Reserve from './Reserve';
-import Order_online from './Order_online';
 import Menu from './Menu';
 import Contact from './Contact';
 
@@ -17,7 +16,6 @@ class Header extends Component{
                     <nav>
                         <ul className="headerList">
                             <li><Link to="/reserve">RESERVE</Link></li>
-                            <li><Link to="/order_online">ORDER ONLINE</Link></li>
                             <li><Link to="/menu">MENU</Link></li>
                             <li><Link to="/contact">CONTACT</Link></li>
                         </ul>
@@ -26,7 +24,6 @@ class Header extends Component{
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="/reserve" element={<Reserve />} />
-                    <Route path="/order_online" element={<Order_online />} />
                     <Route path="/menu" element={<Menu />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/" element={<Main />} />

@@ -10,22 +10,23 @@ class Header extends Component{
         return(
             <Router>
                 <header>
-                    <h1><Link to="/">Happi Restaurant</Link></h1>
-                </header>
+                    <h1 className="wrapper"><Link to="/happi-restaurant/">Happi Restaurant</Link></h1>
+                
                 <div>
                     <nav>
-                        <ul className="headerList">
-                            <li><Link to="/reserve">RESERVE</Link></li>
-                            <li><Link to="/menu">MENU</Link></li>
-                            <li><Link to="/contact">CONTACT</Link></li>
+                        <ul className="headerList wrapper">
+                            <li><Link to="/happi-restaurant/reserve">RESERVE</Link></li>
+                            <li><Link to="/happi-restaurant/menu">MENU</Link></li>
+                            <li><Link to="/happi-restaurant/contact">CONTACT</Link></li>
                         </ul>
                     </nav>
                 </div>
+                </header>
                 <Routes>
-                    <Route path="/" element={<Main />} />
-                    <Route path="/reserve" element={<Reserve />} />
-                    <Route path="/menu" element={<Menu />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/happi-restaurant/" element={<Main />} />
+                    <Route path="/happi-restaurant/reserve" element={<Reserve />} />
+                    <Route path="/happi-restaurant/menu" element={<Menu />} />
+                    <Route path="/happi-restaurant/contact" element={<Contact />} />
                     <Route path="/" element={<Main />} />
                 </Routes>
             </Router>

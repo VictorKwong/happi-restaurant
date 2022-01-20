@@ -12,6 +12,12 @@ body {
   font-size: 1.6rem;
   /* font-family: 'Balsamiq Sans', cursive; */
   font-family: 'Josefin Sans', sans-serif;
+  background-color: #FCF6B1FF;
+  color:#E3170AFF;
+}
+
+header{
+  background-color: #E3170AFF;
 }
 
 .wrapper {
@@ -26,7 +32,8 @@ h2,
 h3,
 h4,
 p,
-a{
+a,
+ul{
   margin: 0;
   padding: 0;
 }
@@ -50,22 +57,54 @@ a{
 
 /* setup */
 
+.mainFlex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+li{
+  list-style-type: none;
+}
+
+.mainPageImg{
+  height: 500px;
+  width: 650px;
+}
+
 .headerList{
-  list-style: none;
   display: flex;
   justify-content: right;
+  padding-bottom: 8px;
 }
 .headerList>li>a{
   padding: 8px;
+  ;
 }
-.headerList>li>a:hover,
-.headerList>li>a:focus{
-  background-color:lightgreen;
+a{
+  color: #FCF6B1FF;
+  padding:2px;
+}
+a:hover{
+  background-color:#A9E5BBFF;
+  border-radius: 5px;
+  padding:2px;
 }
 
-a{
+.headerList>li>a,
+header>h1>a {
   text-decoration: none;
 }
+
+.headerList>li>a:hover,
+header>h1>a:hover
+{
+  background-color:#F7B32BFF;
+  border-radius: 5px;
+}
+
+
 
 .txtCenter{
   text-align: center;
@@ -85,9 +124,45 @@ a{
   justify-content: space-evenly;
 }
 .supTitle{
-  margin:15px 0 15px;
+  margin-top:15px;
+  margin-bottom:15px;
 }
-.contactTitle{
-  margin:40px 0 40px;
-  border: 2px solid black;
+.borderBox{
+  margin: 40px 0 40px;
+  border: 5px solid #A9E5BBFF;
+  padding: 10px;
+}
+
+.myWeb{
+  color:#E3170AFF;
+  padding:2px;
+}
+
+@media (max-width: 768px) {
+  .mainPageImg{
+    height: 380px;
+    width: 494px;
+  }
+}
+@media (max-width: 468px) {
+  .mainPageImg{
+    height: 200px;
+    width: 260px;
+  }
+  body {
+    font-size: 1.3rem;
+}
+}
+@media (max-width: 320px) {
+  body {
+    font-size: 1.1rem;
+}
+.menuFoodPicture{
+  height: 240px;
+  width: 240px;
+  margin-bottom: 5px;
+}
+h1{
+  font-size: 1.9rem;
+}
 }

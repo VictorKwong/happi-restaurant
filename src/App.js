@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 class App extends Component{
   render(){
     return(
-      <div className="wrapper pageFix">
+      <div className="pageFix">
           <div className="allWrapping">
             <Header />
           </div>
